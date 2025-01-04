@@ -219,7 +219,7 @@ class OnboardingScreen extends StatelessWidget {
                           '"Mine is definitely the peace in the morning."',
                           style: TextStyle(
                             color: Color(0xffCBC9FF).withOpacity(0.7),
-                            fontSize: 12,
+                            fontSize: 16,
                             fontFamily:
                                 'ProximaNova', // Ensure this font is added to your assets
                             fontStyle: FontStyle.italic,

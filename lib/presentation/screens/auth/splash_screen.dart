@@ -3,7 +3,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:stroll/core/utils/app_colors.dart';
 import 'package:stroll/core/utils/dimensions.dart';
 import 'package:stroll/core/utils/theme_utils.dart';
-import 'package:stroll/presentation/screens/auth/component/onboardscreen.dart';
+import 'package:stroll/presentation/screens/auth/onboardscreen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
