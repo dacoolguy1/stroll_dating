@@ -90,7 +90,7 @@ class MyColor {
   //   return Get.find<ThemeController>().darkTheme ? Colors.grey.withOpacity(.3) : bodyTextColor;
   // }
 
-  static const Color primaryColor = Color(0xffCB997E);
+  static const Color primaryColor = Color(0xff010101);
   static const Color kGreyColor = Color(0xff757575);
   static const Color kGreyColor2 = Color(0xff6C7278);
   static const Color kGreyColor3 = Color(0xffB6B6B6);
@@ -99,23 +99,17 @@ class MyColor {
   static const Color containerBgColor = Color(0xffF9F9F9);
   static const Color colorBlack2 = Color(0xff1A1C1E);
   static const Color colorBlack1 = Color(0xff323232);
-  static const Color colorBlue1 = Color(0xff4D81E7);
-  static const Color colorBlue4 = Color(0xff32343E);
-  static const Color colorBlue5 = Color(0xff181C2E);
+  static const Color colorBlue1 = Color(0xffCCC8FF);
 
   static const Color searchColor = Color(0xffDE620F);
   static const Color bannerYellowColor = Color(0xffFFD804);
-
-  static const Color colorBlack3 = Color(0xff242424);
-  static const Color colorBlack4 = Color(0xff707281);
-
-  static const Color colorBlue2 = Color(0xffA0A5BA);
-  static const Color colorBlue3 = Color(0xff0B1743);
 
   // static const Color colorBlack5 = Color(0xff8C8D8E);
   // static const Color colorBlack6 = Color(0xff101928);
 
   static const Color colorWhite = Color(0xFFFFFFFF);
+  static const Color colorWhite2 = Color(0xFFC4C4C4);
+  static const Color colorWhite3 = Color(0xFFE5E5E5);
 
   static List<Color> colorPlate = [
     primaryColor,

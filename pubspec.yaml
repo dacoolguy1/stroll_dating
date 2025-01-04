@@ -72,8 +72,8 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/
-    # - assets/svg/
-    # - assets/icons/
+    - assets/svg/
+    - assets/icons/
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -87,6 +87,38 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/proxima/ProximaNova-Regular.otf
+        - asset: assets/fonts/proxima/ProximaNova-Bold.otf
+        - asset: assets/fonts/proxima/ProximaNova-BoldItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Black.otf
+        - asset: assets/fonts/proxima/ProximaNova-BlackItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Light.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-LightItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Semibold.otf
+        - asset: assets/fonts/proxima/ProximaNova-SemiboldItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-Regular.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-RegularItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-Bold.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-BoldItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-Light.otf
+        - asset: assets/fonts/proxima/ProximaNova-ExtraCondensed-LightItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Black.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-BlackItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Bold.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-BoldItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-Regular.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-RegularItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-Bold.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-BoldItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-Black.otf
+        - asset: assets/fonts/proxima/ProximaNova-Alt-Condensed-BlackItalic.otf
+        - asset: assets/fonts/proxima/ProximaNova-Thin.otf
+        - asset: assets/fonts/proxima/ProximaNova-ThinItalic.otf
+
+  
   # fonts:
   #   - family: Schyler
   #     fonts:
