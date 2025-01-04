@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:letsbrunch/core/utils/app_colors.dart';
+import 'package:stroll/core/utils/app_colors.dart';
 
 class DefaultBtn extends StatelessWidget {
   final Color color; // Background color (can override gradient)

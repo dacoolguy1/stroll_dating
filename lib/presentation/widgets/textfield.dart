@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:letsbrunch/core/utils/app_colors.dart';
+import 'package:stroll/core/utils/app_colors.dart';
 
 class SmallTextCustomWidget extends StatelessWidget {
   SmallTextCustomWidget(
