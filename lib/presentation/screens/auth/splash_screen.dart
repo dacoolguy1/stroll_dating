@@ -43,12 +43,10 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: MyColor.primaryColor,
-      // controller.noInternet ? MyColor.colorWhite : MyColor.colorWhite,
-      body: Center(
-        child: SvgPicture.asset("assets/svg/logo.svg",
-            height: Dimensions.appLogoHeight, width: Dimensions.appLogoWidth),
-      ),
-    );
+        backgroundColor: MyColor.primaryColor,
+        // controller.noInternet ? MyColor.colorWhite : MyColor.colorWhite,
+        body: Center(
+          child: Container(),
+        ));
   }
 }
