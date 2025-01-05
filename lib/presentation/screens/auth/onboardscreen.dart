@@ -219,7 +219,7 @@ class OnboardingScreen extends StatelessWidget {
                           '"Mine is definitely the peace in the morning."',
                           style: TextStyle(
                             color: Color(0xffCBC9FF).withOpacity(0.7),
-                            fontSize: 16,
+                            fontSize: 16.sp,
                             fontFamily:
                                 'ProximaNova', // Ensure this font is added to your assets
                             fontStyle: FontStyle.italic,
@@ -236,25 +236,7 @@ class OnboardingScreen extends StatelessWidget {
                       const SizedBox(height: 24),
 
                       // Poll Options
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          buildPollOption(
-                              'A', 'The peace in the early mornings'),
-                          buildPollOption('B', 'The magical golden hours'),
-                        ],
-                      ),
-                      // const SizedBox(height: 12),
-                      const SizedBox(height: 12),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          buildPollOption('C', 'Wind-down time after dinners'),
-                          buildPollOption('D', 'The serenity past midnight',
-                              isSelected: true),
-                        ],
-                      ),
-
+                      PollScreen(),
                       const SizedBox(height: 24),
                       // Bottom text and buttons
                       Row(

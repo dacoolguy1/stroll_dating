@@ -20,8 +20,8 @@ class CustomBottomBar extends StatelessWidget {
           SvgPicture.asset(
             'assets/icons/bonfire.svg',
             color: Colors.white,
-            width: 24,
-            height: 24,
+            width: 34,
+            height: 34,
           ),
           Stack(
             children: [
@@ -44,14 +44,18 @@ class CustomBottomBar extends StatelessWidget {
                     '10',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 5,
+                      fontSize: 7,
                     ),
                   ),
                 ),
               ),
             ],
           ),
-          const Icon(Icons.person_outline, color: Colors.white),
+          const Icon(
+            Icons.person_outline,
+            color: Colors.white,
+            size: 34,
+          ),
         ],
       ),
     );
