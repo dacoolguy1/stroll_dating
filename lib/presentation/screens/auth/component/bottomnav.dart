@@ -51,10 +51,11 @@ class CustomBottomBar extends StatelessWidget {
               ),
             ],
           ),
-          const Icon(
-            Icons.person_outline,
+          SvgPicture.asset(
+            'assets/icons/person.svg',
             color: Colors.white,
-            size: 34,
+            width: 38,
+            height: 38,
           ),
         ],
       ),
